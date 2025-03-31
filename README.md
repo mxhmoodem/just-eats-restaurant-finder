@@ -1,7 +1,7 @@
 
 # UK Restaurant Finder
 
-A web application that displays restaurant data from the Just Eat API based on UK postcodes. This application fetches restaurant information based on a user-provided postcode, filters the data and displays it in a clean user-friendly interface.
+A web application that displays restaurant data from the Just Eat API based on UK postcodes. This application fetches restaurant information based on a user-provided postcode, filters the data, and displays it in a clean, user-friendly interface.
 
 ---
 
@@ -26,13 +26,14 @@ A web application that displays restaurant data from the Just Eat API based on U
 - **JavaScript (ES6+)**
 - **Node.js**
 - **Express.js**
+- **Axios**
 
 ## Prerequisites
 
 To run this project, you'll need:
 
 - [Node.js](https://nodejs.org/) (v14 or later)
-- npm
+- npm (usually comes with Node.js)
 
 ---
 
@@ -40,7 +41,8 @@ To run this project, you'll need:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/mxhmoodem/just-eats-restaurant-finder.git
+   git clone https://github.com/yourusername/restaurant-finder.git
+   cd restaurant-finder
    ```
 
 2. **Install dependencies:**
@@ -64,7 +66,7 @@ To run this project, you'll need:
 restaurant-finder/
 
 ├── public/                 
- │   └── index.html         
+│   └── index.html         
 ├── server.js           
 ├── package.json        
 └── README.md   

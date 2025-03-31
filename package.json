@@ -1,0 +1,14 @@
+{
+    "name": "restaurant-finder",
+    "version": "1.0.0",
+    "description": "UK Restaurant Finder using Just Eat API",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "axios": "^1.6.2",
+      "cors": "^2.8.5",
+      "express": "^4.18.2"
+    }
+  }

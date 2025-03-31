@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>UK Restaurant Finder</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>UK Restaurant Finder</h1>
+            <p>Find restaurants in your area!</p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <form id="search-form" class="search-form">
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        id="postcode-input" 
+                        class="form-control" 
+                        placeholder="Enter UK postcode (e.g., EC4M 7RF)" 
+                        required
+                    >
+                    <button 
+                        type="submit" 
+                        id="search-button" 
+                        class="btn"
+                    >
+                        <svg class="detail-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        Search
+                    </button>
+                </div>
+            </form>
+            
+            <div class="sample-postcodes">
+                <h3>Sample UK postcodes:</h3>
+                <div class="postcode-chips" id="sample-postcodes-container">
+                    <button class="postcode-chip">CT1 2EH</button>
+                    <button class="postcode-chip">BS1 4DJ</button>
+                    <button class="postcode-chip">L4 0TH</button>
+                    <button class="postcode-chip">NE9 7TY</button>
+                    <button class="postcode-chip">SW1A 1AA</button>
+                </div>
+            </div>
+            
+            <div id="error-container"></div>
+            
+            <div id="restaurants-container"></div>
+            
+            <div id="loading-container" class="loading-container" style="display: none;">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
