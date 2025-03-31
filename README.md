@@ -84,6 +84,18 @@ https://uk.api.just-eat.io/discovery/uk/restaurants/enriched/bypostcode/{postcod
 
 ---
 
+## Future Improvements
+
+- Add pagination to view more than 10 restaurants
+- Implement filtering by cuisine type
+- Add sorting options (by rating, distance, etc.)
+- Include a map view to visualise restaurant locations
+- Add restaurant details page with more information (opening hours, menus, etc.)
+- Implement caching to reduce API calls for previously searched postcodes
+- Add user authentication to save favorite restaurants
+
+---
+
 ## Acknowledgments
 
 - **Just Eat API** for providing the restaurant data  
